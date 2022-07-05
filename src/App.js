@@ -4,6 +4,7 @@ import { Footer, Blog, Possibility, Features, WhatGPT3, Header, Speaker } from '
 import { CTA, Brand, Navbar } from './components';
 
 import './App.css';
+import Countdown from './containers/countdown/Countdown';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="gradient__bg">
         <Header />
       </div>
+      <Countdown/>
       <Possibility />
       <Brand />
       <WhatGPT3 />
